@@ -1,0 +1,16 @@
+//Next.js setup
+npx create-next-app 'project name'\
+npm run dev
+
+//Understand Next.js folder structure
+
+//Routing in Next.js app
+
+*Route with pages
+-
+
+*Nested routes
+*Dynamic routes
+*Catch-all routes
+*Navigate from the UI
+*Programmatically naviate b/w Pages
