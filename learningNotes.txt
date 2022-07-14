@@ -5,12 +5,10 @@ npm run dev
 //Understand Next.js folder structure
 
 //Routing in Next.js app
-
-*Route with pages
--
-
-*Nested routes
-*Dynamic routes
-*Catch-all routes
-*Navigate from the UI
-*Programmatically naviate b/w Pages
+*Route with pages associate with their file name
+*Nested routes , nested folder structure automatically routed the same way in URL
+*Dynamic routes, adding '[]' brackets to a page name, can receive any types of param
+*Catch-all routes, using [...] , this method is use when different routes but same layout
+*Navigate from the UI using Link 'next/link'
+*Programmatically naviate b/w Pages using useRouter hook's (router.push('link'))
+*create 404.js file at pages folder root
