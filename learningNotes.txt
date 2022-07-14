@@ -12,3 +12,15 @@ npm run dev
 *Navigate from the UI using Link 'next/link'
 *Programmatically naviate b/w Pages using useRouter hook's (router.push('link'))
 *create 404.js file at pages folder root
+
+//Pre-rendering & Data Fetching
+*Types of Pre-rendering
+  i) Static Generation
+    -without data
+    -with data
+    -Incremental Static Generation
+    - dynamic parameters when fetching data
+  ii) Server-side Rendering
+    -data fetching
+ *Client-side data fetching
+ *Combining pre-rendering with client-side data fetching
